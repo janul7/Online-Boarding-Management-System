@@ -1,0 +1,139 @@
+/* Feedback Form Styles */
+.card {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+  }
+  .cards {
+ 
+    background: linear-gradient(135deg, #0057a0, #242745,#0057a0);
+    padding: 1%;
+    border-radius: 10px; 
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  #newFeedback {
+    color: rgb(8, 139, 143);
+  }
+ 
+  
+  .require {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .lbl {
+    margin-top: 20px;
+    font-size: larger;
+  }
+  
+  #subject {
+    width: 100%;
+    height: 45px;
+  }
+  
+  .container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #6655d7;
+    border-radius: 5px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    /*background-color: #002d42;*/
+    /*border:  20px solid #585aed;
+    border-radius: 15px;*/
+    
+  }
+  
+  /* Feedback Form Input Styles */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-textarea {
+    padding: 10px;
+    border: 1px solid #4ab690;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  /* Feedback Form Button Styles */
+  .submit-button {
+    background-color: #008b8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #006c70;
+  }
+  
+  .cancel-button {
+    background-color: #e61a1a;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e32020;
+  }
+  
+  /* Star Rating Styles (You may need to adjust this based on your StarRating component) */
+  .star-rating {
+    margin-top: 10px;
+  }
+  
+  .star {
+    color: #f0ce00;
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

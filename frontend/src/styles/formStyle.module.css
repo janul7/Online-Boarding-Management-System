@@ -1,0 +1,84 @@
+/* Add this CSS to your stylesheet */
+.card{
+  margin-top: 10px;
+  box-shadow: 2px 1px 10px -5px black;
+  height: 60px;
+  margin-bottom: 16px;
+}
+.cardStatus{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: aliceblue;
+
+}
+/* Style for the form container */
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for form rows (e.g., Product and Food Type) */
+.form-row {
+  margin-bottom: 20px;
+}
+
+/* Style for labels in the form */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style for the input/select elements */
+.form-input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Style for the Price and Total sections */
+.form-price,
+.form-total {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+/* Style for the submit button */
+.form-button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #d81b5e;
+}
+
+/* Style for error messages */
+.form-error {
+  color: red;
+  margin-top: 10px;
+}
+
+
+/* styles.css */
+.containerStyles {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

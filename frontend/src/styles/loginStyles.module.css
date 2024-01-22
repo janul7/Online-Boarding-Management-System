@@ -1,0 +1,64 @@
+.trapezoid{
+    border-bottom: 100vh solid #66B2ff;
+    border-right: 100vw solid #66B2ff;
+    border-left: 65vw solid transparent;
+    position: fixed;
+    z-index: -1;
+    /*filter: blur(5px);*/
+}
+
+.mainDiv{
+    width: 100%;
+    height: 100%;
+    display: inline-grid;
+    align-items: center;
+    overflow: auto;
+}
+
+.loginContainer{
+    position: relative;
+    background-color: rgb(255 255 255 / 76%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    max-width: 65vw !important;
+    box-shadow: 0 4px 16px #00000025;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.verificationMsg{
+    display: flex;
+    height: 90vh;
+    padding: 0 30px !important;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginImage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox{
+    width: 100%;
+}
+
+.googleButton{
+    background-color: white !important;
+    text-transform: unset !important;
+    min-width: 100% !important;
+    margin-top: 10px !important;
+}
+
+@media (max-width: 768px) {
+    .logo{
+        text-align: center !important;
+    }
+    .loginImage{
+        display: none;
+    }
+}

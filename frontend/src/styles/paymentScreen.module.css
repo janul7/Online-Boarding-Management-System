@@ -1,0 +1,32 @@
+.card{
+    
+    margin: 58px 12%;
+    box-shadow: 3px 8px 17px gray;
+    border-radius: 10px;
+}
+.h3Topic{
+    margin-top: 6%;
+    text-align: center;
+}
+.h3PaymentTopic{
+    color:aliceblue;
+    text-align: center;
+}
+.h5Text{
+    color:aliceblue;
+}
+.card40{
+    background-color: rgb(106, 106, 106);
+    border-radius:10px 0px 0px 10px;
+    padding:3% !important;
+}
+.card60{
+    background-color: aliceblue;
+}
+.paymentForm{
+    max-width: 450px;
+    margin:0px auto;
+}
+.stepperDiv{
+    margin:2% 10%;
+}

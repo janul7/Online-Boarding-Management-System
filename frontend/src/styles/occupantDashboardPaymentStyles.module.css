@@ -1,0 +1,23 @@
+.cardStyles{
+    padding: 9px 26px;
+    background-color: #d5ceeb !important;
+    border-radius: 25px !important;
+    border: 1px solid #d5ceeb !important;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.exportBtn{
+    width: 140px !important;;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #9ad59a;
+    margin-left: 78%;
+    transition: background-color 0.5s;
+}
+.exportBtn:hover{
+    background-color: #67bb67;
+}
